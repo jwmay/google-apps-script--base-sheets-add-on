@@ -1,0 +1,85 @@
+body {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #004C00;
+}
+
+h1 {
+  font-size: 1.6em;
+  margin: 20px 0 0 0;
+}
+
+p {
+  margin: 4px 0;
+}
+
+button {
+  font-size: 13px;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 80%;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: #357ae8;
+}
+
+.help {
+  color: #a94442;
+}
+
+
+/**
+ * Message Styles
+ */
+.msg {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.msg-success {
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+}
+
+.msg-warning {
+  background-color: #fcf8e3;
+  border: 1px solid #faebcc;
+}
+
+.msg-error {
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+}
+
+.msg-information {
+  background-color: #eee;
+}
+
+
+/**
+ * Form Styles
+ */
+.form-options {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.form-group {
+  position: relative;
+  left: -10px;
+  padding: 10px;
+}
+
+.form-group.error {
+  color: black;
+  background-color: rgba(255, 0, 0, 0.35);
+}
+
+.btn-bar > input {
+  margin: 10px;
+}

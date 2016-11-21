@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+  <style>
+    <?!= include('a.my-project.styles.css'); ?>
+  </style>
+</head>
+<body>
+  <div>
+    <p id='result'></p>
+  </div>
+  <script>
+    <?!= include('a.my-project.display.controller.client.js'); ?>
+    <?!= include('a.my-project.picker.controller.client.js'); ?>
+  </script>
+  <script src="https://apis.google.com/js/api.js?onload=onApiLoad"></script>
+</body>
+</html>
